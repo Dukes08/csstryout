@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    
+    
+}
+
+
+.container logo{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+.nav_item{
+    position: relative;
+    list-style: none;
+    left: 75%;
+    display: inline-block;
+    top: 0%;
+}
+
+.main_aside{
+    width: 100vw;
+    display: flex;
+
+
+}
+
+.aside_container{
+
+    width: 300px;
+    height: 800px;
+    background-color: aqua;
+    align-items: center;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.box{
+   
+    width: 150px;
+    height: 150px;
+    border: springgreen solid 4px;
+    background-color: blue;    
+    position: relative;
+    left: 35px;
+    margin-top: 35px;
+    margin-left: 0;
+    border-radius: 8px;
+
+}
+
+.main{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    position: relative;
+    margin: 0;
+}
+
+
+
